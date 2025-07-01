@@ -1,0 +1,631 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    font-family: 'cookie',cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner{
+    width: 100%;
+    height: 650px;
+    background-image:url(../images/cindrella1.jpg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav{
+    width: 90%;
+    height: auto;
+    background-color: rgba (225,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 50%;
+    height: 60%;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #f15;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text{
+    width: 100%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 50px;
+    text-align: left;
+}
+.text h1{
+    color: #f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text .date{
+    color: #fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text .date:hover{
+    background-color: #fff;
+    color: #f15;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container2{
+    width: 100%;
+    height: auto;
+    font-family: 'cookie',cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner2{
+    width: 70%;
+    height: 600px;
+    background-image:url(../images/Alexanderphoto.png) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav2{
+    width: 90%;
+    height: auto;
+    background-color: rgba (225,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav2 b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 50%;
+    height: 60%;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #f15;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text2{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.text2 h1{
+    color: #f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text2 .date{
+    color: #fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text2 .date:hover{
+    background-color: #fff;
+    color: #f15;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container3{
+    width: 100%;
+    height: auto;
+    font-family: 'cookie',cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner3{
+    width: 70%;
+    height: 600px;
+    background-image: url(../images/cindrellaphoto.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav{
+    width: 90%;
+    height: auto;
+    background-color: rgba (225,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 50%;
+    height: 60%;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #f15;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text3{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.text3 h1{
+    color: #f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text3 .date{
+    color: #fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text3 .date:hover{
+    background-color: #fff;
+    color: #f15;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container4{
+    width: 100%;
+    height: auto;
+    font-family: 'cookie',cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner4{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/Venue.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav{
+    width: 90%;
+    height: auto;
+    background-color: rgba (225,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 50%;
+    height: 60%;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    
+    color:#f15 ;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text4{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.text4 h1{
+    color: #f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text4 .date{
+    color: #fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text4 .date:hover{
+    background-color: #fff;
+    color: #f15;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container5{
+    width: 100%;
+    height: auto;
+    font-family: 'cookie',cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color:#ff99b6 ;
+    overflow: hidden;
+}
+.banner5{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/royal-event-website-hall-3-dot-removed-e1673095519353.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav{
+    width: 90%;
+    height: auto;
+    background-color: rgba (225,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 50%;
+    height: 60%;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #f15;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text5{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.text5 h1{
+    color: #f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text5 .date{
+    color: #fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text5 .date:hover{
+    background-color: #fff;
+    color: #f15;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container6{
+    width: 100%;
+    height: auto;
+    font-family: 'cookie',cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner6{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/wedding.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav{
+    width: 90%;
+    height: auto;
+    background-color: rgba (225,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 50%;
+    height: 60%;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color:#f15;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text6{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.text6 h1{
+    color: #f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text6 .date{
+    color: #fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text6 .date:hover{
+    background-color: #fff;
+    color: #f15;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container7{
+    width: 100%;
+    height: auto;
+    font-family: 'cookie',cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner7{
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/cindrellainvitaioncard.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav{
+    width: 90%;
+    height: auto;
+    background-color: rgba (225,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 50%;
+    height: 60%;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color:#f15;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text7{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.text7 h1{
+    color: #f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text7 .date{
+    color: #fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text7 .date:hover{
+    background-color: #fff;
+    color: #f15;
+}
+ 
+
+
+
+
